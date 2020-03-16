@@ -1,0 +1,23 @@
+{
+    "name": "openy/openy_loc_finder",
+    "type": "drupal-module",
+    "description": "Implement Location Finder for OpenY and Drupal community",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/ymcatwincities/openy_loc_finder",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/ymcatwincities/openy_loc_finder/issues",
+        "source": "https://github.com/ymcatwincities/openy_loc_finder.git"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "require": {
+        "drupal/default_content": "1.x-dev",
+        "drupal/commerce": "2.16"
+    }
+}
